@@ -7,17 +7,17 @@ import { div } from "./index.js";
 import { mod } from "./index.js";
 
 describe("Contenedor de mis test", () => {
-  it("test sumar", () => {
+  it("Test de suma", () => {
     const result = sum(2, 3);
     assert.strictEqual(result, 5);
   });
 
-  it("test resta", () => {
+  it("Test de resta", () => {
     const result = rest(4, 2);
     assert.strictEqual(result, 2);
   });
 
-  it("test multiplicación", () => {
+  it("Test de multiplicación", () => {
     const result = multiply(4, 2);
     assert.strictEqual(result, 8);
   });
