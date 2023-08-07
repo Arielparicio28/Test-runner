@@ -14,8 +14,10 @@ Node.js: Asegúrate de tener Node.js instalado en tu sistema. Puedes descargarlo
 # Generamos el ambiente de desarrollo
 
 1-Creamos el archivo index.js donde estaran las a las cuales les realizare el testing.
+
 2-Creamos el archivo index.test.js donde realizaremos nuestros test, en este archivo tenga en cuenta que es muy importante la importación de import assert from "node:assert/strict";
 import { describe, it } from "node:test" en este ultimo caso puede variar según tus necesidades ta,mbien puedes usar test en vez de describe y it pero en el caso de que uses test tienes que importar:import test from "node:test".
+
 3-Creamos nuestro archivo package.json en el cual solo ponemos solo "type":"module"
 
 # Uso
